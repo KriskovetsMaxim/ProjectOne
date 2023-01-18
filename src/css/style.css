@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
 body {
     background-color: #ffe2b0;
 }
@@ -36,4 +42,41 @@ a:hover {
 
 nav {
     margin-bottom: 20px;
+}
+
+.section-about {
+    height: 640px;
+    background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat;
+    position: relative;
+}
+
+.section-about__special-order {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244,213,178,0.8) 0%, rgba(234,156,65,0.8) 100%);
+    position: absolute;
+    top: 55%;
+    left: 51%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.section-about__border {
+    width: 390px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: left;
+    padding: 17px 0 0 28px;
+}
+
+.section-about__title {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 9px;
+}
+
+.section-about__text {
+    font-size: 12px;
+    margin: 0;
 }
